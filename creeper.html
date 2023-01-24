@@ -1,0 +1,30 @@
+<meta charset="UTF-8" />
+<h3 style="color: brown">La cara de Creeper -- Minecraft -- </h3>
+<canvas width="600" height="400"></canvas>
+
+<script>
+  var pantalla = document.querySelector("canvas");
+  var pincel = pantalla.getContext("2d");
+
+  //Rectángulo 1: 350, 300 (cabeza).
+  pincel.fillStyle = "darkgreen"; //Propiedad
+  pincel.fillRect(0, 0, 350, 300); //Función
+
+  //Rectángulos 2 y 3: 90, 90 (ojos).
+  pincel.fillStyle = "black"; //Propiedad
+  pincel.fillRect(50, 60, 90, 90); //Función
+
+  pincel.fillStyle = "black"; //Propiedad
+  pincel.fillRect(210, 60, 90, 90); //Función
+
+  //Rectángulo 4: 70, 100 (nariz).
+  pincel.fillStyle = "black"; //Propiedad
+  pincel.fillRect(140, 150, 70, 100); //Función   
+
+  //Rectángulos 5 y 6: 40, 110 (parte de la boca).
+  pincel.fillStyle = "black"; //Propiedad
+  pincel.fillRect(100, 190, 40, 110); //Función 
+
+  pincel.fillStyle = "black"; //Propiedad
+  pincel.fillRect(210, 190, 40, 110); //Función
+</script>
