@@ -16,6 +16,11 @@ Temario del repositorio 👨‍💻
 - Diseñar figuras geométricas como rectángulos y circunferencias.
 - Personalizar algunas propiedades de nuestras figuras como el color.
 
+2. Utilizando funciones
+- Usar funciones para encapsular la creación de figuras.
+- Utilizar ciclos Loop para repetir actividades cuando creamos nuestras figuras.
+
+3.
 
 ----------
 Instructor del curso: Christian Paul Velasco
