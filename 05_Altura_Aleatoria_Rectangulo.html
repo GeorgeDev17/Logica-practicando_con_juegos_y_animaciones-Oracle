@@ -1,0 +1,18 @@
+<canvas width="600" height="400"> </canvas>
+<!--dibuja un rectángulo que recibe 4 parámetros: la coordenada X, la coordenada Y, 
+    el color y la altura del rectángulo. 
+    El único valor constante es la base del rectángulo y es igual a 50 píxeles. -->
+<script>
+  function dibujarRectangulo(x, y, color, altura) {
+    var pantalla = document.querySelector("canvas");
+    var pincel = pantalla.getContext("2d");
+    pincel.fillStyle = color;
+    pincel.fillRect(x, y, 50, altura);
+    pincel.strokeStyle = "black";
+    pincel.strokeRect(x, y, 50, altura);
+  }
+
+  /* Al momento de llamar a la función dibujarRectangulo, la variable altura sea un 
+  número aleatorio entre 0 y 50*/
+  dibujarRectangulo(50, 50, "green", Math.round(Math.random() * 50));
+</script>
